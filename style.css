@@ -1,0 +1,73 @@
+div,
+p {
+  font-size: 20px;
+}
+
+#playerAction {
+  display: none;
+}
+
+#pointer {
+  display: none;
+}
+
+.border {
+  width: 450px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.border_hide {
+  width: 450px;
+  display: none;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.my_cpu_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.my_cpu_border {
+  width: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#opponent {
+  cursor: pointer;
+}
+
+#opponent:hover {
+  background: lightskyblue;
+  color: white;
+}
+
+#triangle {
+  display: none;
+  cursor: pointer;
+}
+
+#triangle:hover {
+  background: lightskyblue;
+  color: white;
+}
+
+#triangle:hover {
+}
+
+#attack {
+  cursor: pointer;
+}
+
+#attack:hover {
+  background: lightskyblue;
+  color: white;
+}
